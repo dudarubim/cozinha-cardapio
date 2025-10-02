@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: #303AFF;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:181px;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 48px;
+  color: #ffffff;
+  margin: 0;
+  font-family: "Inika", sans-serif;
+    margin-top: 25px;
+    text-align: center;
+    background: #303AFF;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 96px;
+  color: #ffffff;
+  margin: 0;
+  font-family: "Inika", sans-serif;
+    margin-top: 25px;
+    text-align: center;
+    background: #303AFF;
+    
+}
+
+input{
+    border-radius: 8px;
+    border: 1px solid #DADADA;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    font-size: 26px;
+    font-family: "Inika", sans-serif;
+   
+
+}
+header button{
+    background-color: #ffffff;
+    color:black;
+}
+button{
+    border-radius: 25px;
+    border: 0;
+    height: 40px;
+   text-align: center;
+    min-width: 150px;
+    margin:10px;
+    background: #448AFF;
+    color: white;
+    font-size: 26px;
+    font-family: "Inika", sans-serif;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: "Inika", sans-serif;
+    font-size: 26px;
+    background: rgb(248, 243, 243);
+    color: black;
+}
+
+th{
+    border: 1px solid #020101;
+    padding: 20px;
+    background-color: #448AFF;
+    
+
+}
+td{
+    border: 1px solid #020101;
+    padding: 20px;
+    
+}
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fale-conosco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+select{
+    border-radius: 8px;
+    border: 1px solid #000 ;
+    height: 40px;
+    width: 260px;
+    margin: 10px;
+    padding: 0 10px;
+    font-size: 26px;
+    font-family: "Inika", sans-serif;
+    
+}
+textarea{
+    border-radius: 8px;
+    border: 1px solid #DADADA;
+    height: 100px;
+    width: 238px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 26px;
+    font-family: "Inika", sans-serif;
+    resize: none;
+
+
+}
+aside{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: "Inika", sans-serif;
+    font-size: 26px;
+    color: black;
+    border:2px solid white;
+    
+
+
+}
+
+p{
+    margin: 0 0 10px 0;
+    font-family: "Inika", sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+
