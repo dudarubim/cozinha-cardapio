@@ -40,7 +40,27 @@ h1 {
     font-family: "Inika", sans-serif;
     margin-top: 25px;
     text-align: center;
-    background: #303AFF;
+    
+
+}
+
+h3 {
+    font-size: 48px;
+    color: white;
+    margin: 0;
+    font-family: "Inika", sans-serif;
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+h5{
+    font-size: 36px;
+    color:white;
+    margin: 0;
+    font-family: "Inika", sans-serif;
+    margin-top: 25px;
+    text-align: center;
 
 }
 
@@ -67,7 +87,7 @@ button {
     border: 0;
     height: 40px;
     text-align: center;
-    min-width: 150px;
+    width: 150px;
     margin: 10px;
     background: #448AFF;
     color: white;
@@ -159,3 +179,229 @@ p {
     font-size: 26px;
     color: white;
 }
+
+aside fieldset{
+    border:0;
+}
+
+aside legend{
+        display: none;
+     }
+
+     
+
+@media(max-width: 768px) {
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 150px;
+        background-color: #303AFF;
+        font-family: "Inter";
+    }
+
+    header h1 {
+        font-size: 32px;
+        font-family: "Inter";
+
+    }
+
+    header button {
+        width: 50px;
+        height: 28px;
+        color: white;
+        background-color: #43B2AC;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Inter";
+
+
+
+    }
+
+    header div {
+        display: flex;
+        align-self: flex-start;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:stretch;
+    }
+
+    aside {
+        display: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    h1 {
+        font-family: Inter;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        color:#448AFF;
+    
+      
+        
+
+
+    }
+
+    h3 {
+        font-family: Inter;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        color:black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin:0;
+        padding:0;
+        height: 50px;
+
+
+    }
+
+    h2 {
+        font-family: Inter;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        background-color: #448AFF;
+        color: #303AFF;
+        margin:0;
+        padding:0;
+        height: 69px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h5{
+        font-family: "Inter", sans-serif ;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        color:black;
+        height: 50px;
+
+    }
+    aside form{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+   aside fieldset{
+        border: 1px solid #000;
+        border-radius: 10px;      
+        margin: 10px;
+        padding: 0;
+        width: 80%;
+        height:60px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     
+       
+
+    }
+
+    aside legend{
+        display: block;
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        color: black;
+        padding: 0;
+        margin: 0;
+        
+
+    }
+
+    input,textarea,select{
+        height: 27px;
+        outline: none;
+        border:0;
+        font-size: 15px;
+         padding: 0;
+        margin: 0;
+    }
+
+    button#inserir{
+        display:none;
+    }
+    .button-inserir{
+        cursor: pointer;
+    }
+    
+    input::placeholder,textarea::placeholder{
+        color:transparent;
+
+    }
+
+    .ocultar,select#turno{
+        border: 0;
+        color:transparent;
+
+    }
+
+    
+    table,th,td{
+        font-size: 15px;
+        border: 1px solid black;
+        padding: 0px;
+        margin: 0;
+        text-align: center;
+       
+    }
+
+    form,input#date,select#turno{
+        font-size: 15px;
+    }
+ .fale-conosco{
+    flex-direction: column;
+    width: 100%s;
+
+ }
+
+ .fale-conosco div{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+section select{
+    border:1px solid black;
+    margin:10px;
+    width: 342px;
+}
+section textarea{
+    border:1px solid black;
+    width: 342px;
+    height:133px;
+}
+}
+
+    
+
+
