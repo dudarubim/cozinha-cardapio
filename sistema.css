@@ -20,6 +20,20 @@ header {
 main {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main div{
+    
+    width: 100%;
+}
+div select{
+    width:90%;
+}
+
+div textarea{
+    width:88%;
 }
 
 h2 {
