@@ -20,7 +20,7 @@ async function loginCozinheira(email, senha) {
         })
 
         return { secesso: false, msg: msgErro || msgPadrao || "Erro ao fazer login", };
-        
+
         const data = await res.json();
 
         if (data.usuario) {
@@ -80,3 +80,78 @@ async function recuperarSenha(email) {
     }
 
 }
+
+export async function listarCardapios() {
+    try {
+        const res = await fetch(API_USUARIOS);
+        const cardapios = await res.json();
+        return cardapios;
+
+    } catch (error) {
+        console.error("Erro ao listar cardápio.", error);
+        alert("Ocorreu um erro ao carregar cardápio.");
+
+    }
+
+}
+
+export async function cadastrarCardapio(cardapio){
+    try {
+        const res = await fetch(API_USUARIOS);
+        const cardapios = await res.json();
+        return cardapios;
+
+        
+    } catch (error) {
+        console.error("Erro ao cadastrar cardápio.", error);
+        alert("Ocorreu um erro ao cadastrar seu cardapio.");
+        
+    }
+
+}
+
+export async function alterarCardapio(id){
+    try {
+        const res = await fetch(API_USUARIOS);
+        const cardapios = await res.json();
+        return cardapios;
+
+        
+    } catch (error) {
+        console.error("Erro ao alterar cardápio.", error);
+        alert("Ocorreu um erro ao alterar cardápio.");
+        
+    }
+
+}
+
+export async function excluirCardapio(id){
+    try {
+        const res = await fetch(API_USUARIOS);
+        const cardapios = await res.json();
+        return cardapios;
+
+        
+    } catch (error) {
+        console.error("Erro ao excluir cardápio.", error);
+        alert("Ocorreu um erro ao excluir cardápio.");
+        
+    }
+
+}
+
+export async function buscarCardapio(id){
+    try {
+        const res = await fetch(API_USUARIOS);
+        const cardapios = await res.json();
+        return cardapios;
+
+        
+    } catch (error) {
+        console.error("Erro ao buscar cardápio.", error);
+        alert("Ocorreu um erro ao buscar cardápio.");
+        
+    }
+
+}
+

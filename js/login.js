@@ -8,7 +8,7 @@ document.getElementById('formLogin').addEventListener('submit',async(event)=>{
     const senha=document.getElementById('senha').valuetrim();
 
     if(!email||!senha){
-        mostrarMsg('Por favor,verifique email ou senha.',red);
+        mostrarMsg('Por favor,verifique email ou senha.',"red");
         return
     }
     const botao=document.getElementById('acessar')
@@ -20,7 +20,7 @@ document.getElementById('formLogin').addEventListener('submit',async(event)=>{
     botao.textContent='Acessar';
 
     if(sucesso){
-        mostrarMsg(`Bem Vindo,${user.name}`,green);
+        mostrarMsg(`Bem Vindo,${user.name}`,"green");
         setTimeout(()=>{
             window.location.href="sistema.html";
             
