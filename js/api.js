@@ -110,7 +110,15 @@ export async function cadastrarCardapio(cardapio) {
 export async function alterarCardapio(id) {
     try {
         const res = await fetch(API_USUARIOS);
-        const cardapios = await res.json();
+         const cardapio = await res.json();
+        document.querySelector('#date').value=cardapio.date.split('T')[0];
+        document.querySelector('select#turno').value=cardapio.turno;
+        document.querySelector("input[name='refeicao']").value=cardapio.refeicao.titulo;
+        document.querySelector("textarea[name='itens']").value=cardapio.refeicao.itens.join(',');
+        document.querySelector("input[name='bebida']").value=cardapio.refeicao.bebida.join(',')
+        if(cardapio.lanche){
+            
+        }
 
     } catch (error) {
         console.error("Erro ao alterar cardápio.", error);
