@@ -1,4 +1,4 @@
-const API_USUARIOS = "https://api-storage-cantina-main-ten.vercel.app/";
+const API_USUARIOS = "https://cozinha-systen.onrender.comqw";
 
 async function tratarErroResponse(res, msgPadrao) {
     const textErro = await res.text();
